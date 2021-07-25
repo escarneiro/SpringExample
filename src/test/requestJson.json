@@ -1,0 +1,13 @@
+//json to send
+{
+    "firstName":"Fulano",
+    "lastName" : "de Tal",
+    "cpf" : "370.035.688-96",
+    "birthDate" : "03-03-1999",
+    "phones" : [
+        {
+            "type":"MOBILE",
+            "number":"(71)999999999"
+        }
+    ]
+}

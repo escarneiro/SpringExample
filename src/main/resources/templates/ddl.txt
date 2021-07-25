@@ -1,0 +1,18 @@
+;;
+;; Criação das entidades (Se for usar o mysql)
+;;
+
+
+CREATE TABLE person (id BIGINT SERIAL,
+					 firstName VARCHAR(40),
+					 lastName VARCHAR(40),
+					 CPF LONG,
+					 birthDate DATE
+					 
+ );
+					 
+CREATE TABLE phone (id BIGINT(11) SERIAL,
+					type ENUM (	'celular' , 'residencial', 'comercial'),
+					number VARCHAR(13)
+);			 
+					 
